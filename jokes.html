@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joke Generator</title>
+  <style>
+    body {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background-color: tan;
+    }
+    .joke-container {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      margin-left: 300px;
+      margin-right: 300px;
+      background-color: lightslategray;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+    }
+    .bonusjoke {
+        border: solid 3px black;
+        color: white;
+        background-color: darkslategrey;
+        font-size: 30px;
+        margin: 150px;
+        text-align: center;
+    }
+    .vid {
+        border: 3px solid black;
+        background-image: url(bears.gif);
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        margin: 250px;
+        margin-bottom: 300px;
+        padding: 10px;
+        text-align: center;
+
+    }
+  </style>
+</head>
+<body>
+    <a href="scratch.html">Rock Climbing</a>
+    <a href="contact.html">Contact</a>
+    <a href="skills.html">Skills</a>
+    <a href="experience.html">Experience</a>
+    <a href="education.html">Education</a>
+    <a href="index.html">Home</a>
+    <a href="#">Climbing Jokes</a>
+
+  <h1>Joke Generator</h1>
+  <div class="joke-container" id="joke-container">
+    Click the button to get a joke!
+  </div>
+  <button onclick="generateJoke()">Get a Joke</button><br><br><br>
+  <a href="#bonus" class="bonusjoke">Bonus Joke that AI had nothing to do with! Please click this, because I will be so sad if you don't.
+    I swear it's not a rick roll, pinky promise.
+  </a>
+
+  <script>
+    const jokes = [
+      "Why did the rock climber bring string to the gym? To tie up loose ends!",
+      "What do you call a rock climber who always gets to the top? A peak performer!",
+      "Why did the rock climber go to therapy? He had too many hang-ups.",
+      "How do rock climbers stay cool? They hang out in the shade!",
+      "Why don't rock climbers ever get lost? They always follow the route!"
+    ];
+
+    function generateJoke() {
+      const jokeContainer = document.getElementById('joke-container');
+      const randomIndex = Math.floor(Math.random() * jokes.length);
+      jokeContainer.innerHTML = jokes[randomIndex];
+    }
+  </script>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <Div id="bonus" class="vid">
+    <p>The following is an actual visual representation of my brain as I was working on this assignment. Just imagine the song sweet dreams in the background. Please enjoy
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> </p>
+    
+</Div>
+</body>
+</html>
